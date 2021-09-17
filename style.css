@@ -4,10 +4,10 @@
 }
 header{
     top: 0;
-    z-index: 10;
 }
-body{
+html,body{
     background-color: white;
+    overflow-x: hidden;
 }
 .leftheader{
     display: flex;
@@ -241,6 +241,10 @@ footer {
         width: auto;
     }
     .nav-bar,.nav-bar *{
+        flex-direction: column;
+    }
+    .row{
+        width: auto;
         flex-direction: column;
     }
 }
