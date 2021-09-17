@@ -12,6 +12,7 @@ body{
 .leftheader{
     display: flex;
     align-items: center;
+    justify-content: flex-end;
     padding: 0px 18px;
 }
 .rightheader{
@@ -104,6 +105,9 @@ img.logo {
 }
 .Rectangle {
     display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    justify-content:space-around;
 }
 span.blog {
     background-color: #554e99;
@@ -132,12 +136,12 @@ span.blog {
     width: 100%;
 }
 .blog-content * {
-margin-bottom: 5px;
+    margin-bottom: 5px;
 }
 .blog-content h5{
     color: #b5d400;
 }
-.info {
+p.info {
     color: #bebebe;
 }
 .blank{
@@ -200,10 +204,7 @@ img {
     color: #fff;
     font-weight: bold;
     position: absolute;
-    top: -20px;
     left: 25%;
-    right: 25%;
-    text-align: center;
 }
 .greenrectangle{
     border: 5px solid #d2ec3c;
@@ -220,7 +221,7 @@ footer {
     background-color: #5d52a8;
     padding: 30px;
 }
-@media screen and (max-width: 720px) {
+@media only screen and (max-width: 768px) {
     .first {
         flex-direction: column;
     }
