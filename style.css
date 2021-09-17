@@ -220,3 +220,26 @@ footer {
     background-color: #5d52a8;
     padding: 30px;
 }
+@media screen and (max-width: 720px) {
+    .first {
+        flex-direction: column;
+    }
+    .firstimage {
+        width: auto;
+    }
+    .description {
+        width: auto;
+    }
+    article{
+        flex-direction: column;
+    }
+    .sponsored-content{
+        width: auto;
+    }
+    section.main {
+        width: auto;
+    }
+    .nav-bar,.nav-bar *{
+        flex-direction: column;
+    }
+}
