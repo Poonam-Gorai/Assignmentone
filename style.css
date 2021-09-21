@@ -101,7 +101,7 @@ img.logo {
     padding: 15px;
 }
 .displayarea {
-    height: 310px;
+    height: 360px;
     background-image: url(image/background.png);
 }
 .displayarea-container{
@@ -112,6 +112,7 @@ img.logo {
     padding-left: 20px;
     color:white ;
     font-family: Titillium;
+    font-size: 33px;
 }
 .Rectangle {
     display: flex;
@@ -294,5 +295,10 @@ footer {
     .nav-bar{
         display: none;
     }
-    
+    .displayarea{
+        height: 320px;
+    }
+    .INTERESTING_READS *{
+        font-size: 18px;
+    } 
 }
