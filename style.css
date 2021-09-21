@@ -301,4 +301,7 @@ footer {
     .INTERESTING_READS *{
         font-size: 18px;
     } 
+    .Rectangle{
+        justify-content: normal;
+    }
 }
